@@ -129,6 +129,7 @@ public class Main {
                         e.getClass(),
                         e
                 );
+                Thread.currentThread().interrupt();
                 break;
             }
         }
